@@ -1,0 +1,9 @@
+@use '../custom' as *;
+
+.header {
+  background-color: $yellow;
+
+  .navbar-icon {
+    box-shadow: none;
+  }
+}

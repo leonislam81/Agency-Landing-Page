@@ -1,0 +1,22 @@
+.feature-2 {
+  .feature-box__sub-heading {
+    font-size: 18px;
+    color: #373f41;
+  }
+  .feature-box__heading {
+    font-size: 26px;
+  }
+  .feature-box__description {
+    font-size: 16px;
+  }
+
+  // XX-Large devices (larger desktops, 1400px and up)
+  @media (min-width: 1400px) {
+    .feature-box__sub-heading {
+      font-size: 23px;
+    }
+    .feature-box__heading {
+      font-size: 52px;
+    }
+  }
+}

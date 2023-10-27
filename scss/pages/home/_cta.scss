@@ -1,0 +1,41 @@
+.cta {
+  background-color: rgba(255, 71, 87, 0.5);
+  padding: 60px 0;
+
+  .cta__heading {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4f4f4f;
+  }
+
+  .cta__img {
+    max-width: 80%;
+  }
+
+  @media (min-width: 768px) {
+    .cta__img {
+      top: -200px;
+    }
+    .cta__heading {
+      font-size: 20px;
+    }
+  }
+
+  // X-Large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+  }
+
+  // XX-Large devices (larger desktops, 1400px and up)
+  @media (min-width: 1400px) {
+    & {
+      padding: 200px 0;
+    }
+    .cta__img {
+      max-width: 100%;
+      position: absolute;
+    }
+    .cta__heading {
+      font-size: 37px;
+    }
+  }
+}

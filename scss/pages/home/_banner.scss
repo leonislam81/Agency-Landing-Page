@@ -1,0 +1,14 @@
+.banner {
+  background-color: rgba(46, 213, 115, 0.5);
+  .banner__text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4f4f4f;
+  }
+  // XX-Large devices (larger desktops, 1400px and up)
+  @media (min-width: 1400px) {
+    .banner__text {
+      font-size: 44px;
+    }
+  }
+}

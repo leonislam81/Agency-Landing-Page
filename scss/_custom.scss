@@ -1,0 +1,78 @@
+//Primary Font
+$primary-font: 'Mulish', sans-serif;
+
+//Color Variations
+$red: #f73c6b;
+$light-red: rgba(255, 71, 87, 0.5);
+$yellow: rgba(255, 165, 2, 0.5);
+$light-yellow: #ffd281;
+$accent-default: #3c64b1;
+$light-black: #373f41;
+$light-gray-dark: #737b7d;
+$light-blue: #4f55dd;
+$dark-gray: #282828;
+$light-gray: #4f4f4f;
+$black-shade: #23242a;
+$light-green: rgba(46, 213, 115, 0.5);
+
+$primary: $red;
+// $secondary: $light-green;
+
+// scss-docs-start colors-map
+$colors: (
+  'light-red': $light-red,
+  'yellow': $yellow,
+  'light-yellow': $light-yellow,
+  'accent-default': $accent-default,
+  'light-black': $light-black,
+  'light-gray-dark': $light-gray-dark,
+  'light-blue': $light-blue,
+  'dark-gray': $dark-gray,
+  'tlight-grayeal': $light-gray,
+  'black': $black-shade,
+  'light-green': $light-green,
+);
+// scss-docs-end colors-map
+
+// scss-docs-start font-sizes
+$h2-font-size: 3.25rem; //52px
+$font-sizes: (
+  2: $h2-font-size,
+);
+// scss-docs-end font-sizes
+
+//Bootstrap Import
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import '../node_modules/bootstrap/scss/functions';
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/variables-dark';
+
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
+@import '../node_modules/bootstrap/scss/maps';
+@import '../node_modules/bootstrap/scss/mixins';
+@import '../node_modules/bootstrap/scss/root';
+
+// 6. Optionally include any other parts as needed
+@import '../node_modules/bootstrap/scss/utilities';
+@import '../node_modules/bootstrap/scss/reboot';
+@import '../node_modules/bootstrap/scss/type';
+@import '../node_modules/bootstrap/scss/images';
+@import '../node_modules/bootstrap/scss/containers';
+@import '../node_modules/bootstrap/scss/grid';
+@import '../node_modules/bootstrap/scss/helpers';
+
+// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import '../node_modules/bootstrap/scss/utilities/api';
+
+// 8. Add additional custom code here

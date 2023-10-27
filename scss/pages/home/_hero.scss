@@ -1,0 +1,9 @@
+@use '../../custom' as *;
+
+.hero {
+  background-color: $yellow;
+
+  .hero-info__btn:hover {
+    color: white !important;
+  }
+}

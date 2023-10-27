@@ -1,0 +1,49 @@
+.footer {
+  background-color: rgba(46, 213, 115, 0.5);
+
+  .footer-link__heading {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  .footer-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+  }
+  .footer-nav__items a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #555;
+  }
+  .footer-city {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .footer-city__name a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+  }
+  .footer__terms {
+    font-size: 18px;
+    color: #494949;
+    text-decoration: none;
+    padding: 0;
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    .footer-city {
+      justify-content: flex-end;
+    }
+  }
+}
